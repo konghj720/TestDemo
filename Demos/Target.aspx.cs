@@ -1,14 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 
-public partial class Demos_Target : BasePage
+namespace Demos
 {
-  protected void Page_Load(object sender, EventArgs e)
-  {
-    Label1.Text = Request.QueryString.ToString();
-  }
+    public partial class DemosTarget : BasePage
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            Label1.Text = Request.QueryString.ToString();
+            /*123312312312312313*/
+        }
+    }
 }
